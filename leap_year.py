@@ -1,4 +1,4 @@
-def leap_year():
+def leap_year() :
     age = int(input("Ingrese un año:"))
     if age % 100 == 0 and age % 400 != 0:
         print("El año " + str(age) + " no es bisiesto")
